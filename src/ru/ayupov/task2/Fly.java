@@ -2,5 +2,7 @@ package ru.ayupov.task2;
 
 public interface Fly {
 
-    void fly();
+    default void fly() {
+        System.out.println("Я умею летать");
+    }
 }

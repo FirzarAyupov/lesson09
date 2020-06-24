@@ -9,13 +9,4 @@ public class Shark extends Animal implements Swim {
     public void getName() {
         System.out.println(name);
     }
-
-    @Override
-    public void swim() {
-        System.out.println("Я умею плавать");
-    }
-
-    @Override
-    public void stopSwim() { // Для совместимости
-    }
 }

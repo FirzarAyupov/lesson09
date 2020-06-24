@@ -2,7 +2,13 @@ package ru.ayupov.task2;
 
 public interface Swim {
 
-    void swim();
+    default void swim() {
+        System.out.println("Я умею плавать");
+    }
 
-    void stopSwim();
+    ;
+
+    default void stopSwim() {
+        System.out.println("Не плыву");
+    }
 }

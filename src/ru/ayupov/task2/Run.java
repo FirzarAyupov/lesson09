@@ -2,8 +2,12 @@ package ru.ayupov.task2;
 
 public interface Run {
 
-    void run();
+    default void run() {
+        System.out.println("Я умею бегать");
+    }
 
-    void stopRun();
+    default void stopRun() {
+        System.out.println("Не бегу");
+    }
 
 }
