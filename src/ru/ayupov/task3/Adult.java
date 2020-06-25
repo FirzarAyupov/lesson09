@@ -1,7 +1,10 @@
 package ru.ayupov.task3;
 
 public class Adult extends Human {
-    private String name = "Взрослый";
+
+    public Adult() {
+        super("Взрослый");
+    }
 
     @Override
     public void getName() {

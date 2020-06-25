@@ -5,7 +5,10 @@ import ru.ayupov.task2.Run;
 import ru.ayupov.task2.Swim;
 
 public class Duck extends Animal implements Fly, Run, Swim {
-    private String name = "Утка";
+
+    public Duck() {
+        super("Утка");
+    }
 
     @Override
     public void getName() {

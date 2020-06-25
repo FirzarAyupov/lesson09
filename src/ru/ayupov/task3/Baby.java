@@ -1,7 +1,10 @@
 package ru.ayupov.task3;
 
 public class Baby extends Human {
-    private String name = "Младенец";
+
+    public Baby() {
+        super("Малыш");
+    }
 
     @Override
     public void getName() {
